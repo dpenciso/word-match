@@ -11,12 +11,13 @@
     <header>
         <h1>Do They Match?</h1>
     </header>
+
     <div class="instructions">
         <h2>In the 2 boxes below, enter any combination of letters and numbers to be compared. You will be told if they contain the same characters or not.</h2>
         <h4>Rules:</h4>
         <ul>
-            <li>No more than 100,000 characters</li>
-            <li>Both boxes must contain the same number of characters</li>
+            <li>{{ one }}</li>
+            <li>{{ two }}</li>
         </ul>
     </div>
     <div class="box1">
@@ -33,6 +34,10 @@
 
     <footer>&copy; 2020 <a href="https://www.davidenciso.com/">David Enciso</a></footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
     <script src="main.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
